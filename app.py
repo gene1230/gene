@@ -22,8 +22,8 @@ import mongodb
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('RRQ+LmtuuSZzuCSEtkdYeEgAjSFXNabVPZ19J2KYeRbm1i1ewqk7anKv02JsNsPxc7kqs0Y/9a8tZ9iqcS1T5wPherdkUjZSDOhSkonQigc0htNxdBEptU9NbViHXcl4Dxp+CxdoCpcrKvlVJ3y/GQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('f397ebb34a37e5f70bde617b84de7433')
+line_bot_api = LineBotApi('acuwTyc4Y1V7B6yAUkbtQsYdg6jsdOwtcLkDazNjyqptoD5SwEng9DNgX1cWnbM2NOQI5GjbjDnnnXiMcyzQF1YqYjlmjcoU21v/NedGW1Snoi0feSDS/YsDMQPxWDzn7ojkSWu9jXsdwMQmjXQ7dAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('17136c3f40a40d2ffbf3e2e056061d6f')
 
 
 

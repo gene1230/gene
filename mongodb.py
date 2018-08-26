@@ -18,12 +18,12 @@ port = '33202'
 username = urllib.parse.quote_plus('chatbox')
 password = urllib.parse.quote_plus('zz1230')
 # Authentication Database
-Authdb='botclass'
+Authdb='chatbox123'
 
 def init_db():
     client = MongoClient('mongodb://%s:%s@%s:%s/%s?authMechanism=SCRAM-SHA-1'
                       % (username, password, host, port, Authdb))
-    dbname='botclass'
+    dbname='chatbox123'
     db = client[dbname]
     return db
 

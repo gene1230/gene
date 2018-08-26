@@ -13,10 +13,10 @@ from datetime import datetime
 
 
 # db setting
-host = 'ds227322.mlab.com'
-port = '27322'
-username = urllib.parse.quote_plus('test2')
-password = urllib.parse.quote_plus('test2!@')
+host = 'ds133202.mlab.com'
+port = '33202'
+username = urllib.parse.quote_plus('chatbox')
+password = urllib.parse.quote_plus('zz1230')
 # Authentication Database
 Authdb='botclass'
 
